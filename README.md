@@ -8,9 +8,9 @@ A tool for timing sections of videos uploaded to YouTube.
 ## How to use
 1. Set `CHROMIUM` to the Chromium-based browser's executable path.
 2. Find the YouTube video's ID. Here's where to find it in a URL:
-  * `https://youtube.com/watch?v=VIDEO_ID`
-  * `https://youtu.be/VIDEO_ID`
-  * `https://youtube.com/embed/VIDEO_ID`
+   * `https://youtube.com/watch?v=VIDEO_ID`
+   * `https://youtu.be/VIDEO_ID`
+   * `https://youtube.com/embed/VIDEO_ID`
 3. Run `npm start -- VIDEO_ID` where `VIDEO_ID` is the ID from step 2.
 
 Once started, your browser will open the video and insert a GUI to time sections. Skip through the video and write down the times in range-pairs in JSON-format.
