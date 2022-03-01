@@ -1,0 +1,13 @@
+{
+  "name": "yt-retime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node run index.js"
+  },
+  "author": "Oskar Grosser",
+  "dependencies": {
+    "puppeteer-core": "^13.4.1"
+  }
+}
